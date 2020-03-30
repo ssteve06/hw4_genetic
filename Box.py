@@ -9,3 +9,6 @@ class Box():
         self.importance = importance
     def __str__(self):
         return "({}, {})".format(self.weight, self.importance)
+
+    def __eq__(self, other_box):
+        return self.weight == other_box.weight and self.importance == other_box.importance
