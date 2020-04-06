@@ -1,3 +1,15 @@
 comp131 hw4 genetic algorithms
 
 Sam Stevens 4/5/20
+
+To start the program, run the file called main.py 
+
+The three parameters of the population object are the size of the inital population, 
+the number of generations that should be run and the percent of children that 
+mutate, must be in the range of 0 - 100.
+
+This program creates a new generation by randomly selecting parents and giving
+the child boxes from both in a new combination. If the parents are the same 
+entity, the parent survives through the next generation. If the child mutates, 
+boxes can be entirely deleted or added from the master list.
+
